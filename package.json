@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -12,17 +12,15 @@
     "node": "v22.x"
   },
   "dependencies": {
-    "@types/node": "20.6.0",
-    "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
-    "eslint": "8.49.0",
-    "next": "^14.2.31",
+    "@types/node": "^22.17.0",
+    "@types/react": "19.1.9",
+    "@types/react-dom": "19.1.7",
+    "eslint": "9.32.0",
+    "eslint-config-next": "15.4.5",
+    "next": "15.4.5",
     "pretty-cache-header": "^1.0.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
     "typescript": "5.2.2"
-  },
-  "devDependencies": {
-    "eslint-config-next": "^14.2.31"
   }
 }
