@@ -1,4 +1,4 @@
-import { ImageResponse } from "next/server";
+import { ImageResponse } from "next/og";
 import { cacheHeader } from "pretty-cache-header";
 
 export const runtime = "edge";
